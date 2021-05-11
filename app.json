@@ -1,0 +1,60 @@
+{
+    "name": "ForceHub Bot",
+    "description": "A bot to force users to follow your GitHub profile before they chat in the group.",
+    "logo": "https://telegra.ph/file/03493aa0cfad551639685.jpg",
+    "keywords": [
+        "GitHub",
+        "telethon",
+        "bot",
+        "telegram",
+        "force",
+        "Follow",
+        "J Projects"
+    ],
+    "repository": "https://github.com/jainamoswal/ForceHub",
+    "website": "https://github.com/jainamoswal/ForceHub",
+    "success_url": "https://t.me/J_Projects",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "1697955612:AAFZo67ZAAZnRZPEovpsEu2nct-zwEWg1Ho"
+        },
+        "GITHUB_USERNAME": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "jainamoswal"
+        },
+        "MONGO_URL": {
+            "description": "MongoDb URL from www.mongodb.com for database access.",
+            "value": ""
+        },
+        "FLASK_SECRET_KEY": {
+            "description": "Let this automatically generate.",
+            "generator": "secret"
+        },
+        "GITHUB_OAUTH_CLIENT_ID": {
+            "description": "Get it from https://github.com/settings/applications/new.",
+            "value": "1c4fc39b432713ed5e70"
+        },
+        "GITHUB_OAUTH_CLIENT_SECRET": {
+            "description": "Get it from https://github.com/settings/applications/new.",
+            "value": "622cdfce705c1a039f1ab463bac1d732492fd1fe"
+        },
+        "APP_DOMAIN": {
+            "description": "Your app domain name. Replace 'yourdomainname' with your domain name & 'ext' with your extension of domain. eg. https://www.jainam.me",
+            "value": "https://www.<yourdomainname>.<ext>"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
